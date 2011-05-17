@@ -1,4 +1,6 @@
-#lang racket
+;;; SICP 1.11
+;;; by Justin Hamilton
+
 ; iterative version
 (define (f-iter n)
   (cond ((<= n 3) n)
